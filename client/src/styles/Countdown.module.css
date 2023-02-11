@@ -1,0 +1,29 @@
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.countdown-number {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.countdown-label {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
